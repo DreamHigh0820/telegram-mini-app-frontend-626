@@ -20,7 +20,7 @@ const apiClient = axios.create({
   headers: {
     'Content-Type': 'application/json',
     'ngrok-skip-browser-warning': 'true',
-    'User-Agent': 'MyApp/1.0'
+    // 'User-Agent': 'MyApp/1.0'
   },
   timeout: 30000,
 });
